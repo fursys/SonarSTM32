@@ -2,6 +2,7 @@
 #define __XBEE_h
 #include "stm32f10x.h"
 #include "queue.h"
+#include "gpiodef.h"
 
 /*
 #ifdef XBEE_USART2
@@ -55,6 +56,7 @@ typedef struct
 extern xQueueHandle xb_rx_msg_queue;
 //extern xQueueHandle xb_tx_msg_queue;
 extern  uint16_t dropped_frames;
+extern  uint32_t sent_frames;
 
 void XB_init (void);
 void XB_send_data (char *ar, int len, uint16_t addr, uint8_t retries);

@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
-1418848130 source:c:\skuksenk\_quadro\arm\prj\sonar\src\startup_stm32f10x_md.s
+1420822732 source:c:\skuksenk\_quadro\arm\prj\sonar\src\startup_stm32f10x_md.s
 
-1417722944 source:c:\skuksenk\_quadro\arm\prj\sonar\src\system_stm32f10x.c
+1419696437 source:c:\skuksenk\_quadro\arm\prj\sonar\src\system_stm32f10x.c
 	"stm32f10x.h"
 
 1417809001 c:\skuksenk\_quadro\arm\prj\sonar\inc\stm32f10x.h
@@ -236,27 +236,30 @@
 
 1398348497 c:\skuksenk\_quadro\arm\prj\lib\freertosv8.0.1\freertos\source\include\stackmacros.h
 
-1419013963 source:c:\skuksenk\_quadro\arm\prj\sonar\src\main.c
+1421091290 source:c:\skuksenk\_quadro\arm\prj\sonar\src\main.c
 	"stm32f10x.h"
+	"main.h"
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
+	<string.h>
 	"FreeRTOS.h"
 	"queue.h"
 	"task.h"
 	"semphr.h"
 	"XBEE.h"
-	"Sonar.h"
+	"I2C.h"
 	"gpiodef.h"
 
 1398348497 c:\skuksenk\_quadro\arm\prj\lib\freertosv8.0.1\freertos\source\include\semphr.h
 	"queue.h"
 
-1417976522 c:\skuksenk\_quadro\arm\prj\sonar\inc\xbee.h
+1420804089 c:\skuksenk\_quadro\arm\prj\sonar\inc\xbee.h
 	"stm32f10x.h"
 	"queue.h"
+	"gpiodef.h"
 
-1418044265 source:c:\skuksenk\_quadro\arm\prj\sonar\src\xbee.c
+1420831809 source:c:\skuksenk\_quadro\arm\prj\sonar\src\xbee.c
 	<stdlib.h>
 	"stm32f10x.h"
 	"FreeRTOS.h"
@@ -283,4 +286,36 @@
 	"semphr.h"
 
 1418844587 c:\skuksenk\_quadro\arm\prj\sonar\inc\gpiodef.h
+
+1420659445 c:\skuksenk\_quadro\arm\prj\sonar\inc\i2c.h
+	"stm32f10x.h"
+	"FreeRTOS.h"
+	"queue.h"
+	"semphr.h"
+
+1421087753 source:c:\skuksenk\_quadro\arm\prj\sonar\src\i2c.c
+	<stdlib.h>
+	"stm32f10x.h"
+	"I2C.h"
+	"FreeRTOS.h"
+	"queue.h"
+	"semphr.h"
+	"task.h"
+	"gpiodef.h"
+
+1420824776 source:c:\skuksenk\_quadro\arm\prj\sonar\src\stm32f10x_it.c
+	"stm32f10x_it.h"
+	"FreeRTOS.h"
+	"task.h"
+	"queue.h"
+
+1420824774 c:\skuksenk\_quadro\arm\prj\sonar\inc\stm32f10x_it.h
+	"stm32f10x.h"
+
+1398348499 source:c:\skuksenk\_quadro\arm\prj\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.c
+	<stdlib.h>
+	"FreeRTOS.h"
+	"task.h"
+
+1420838616 c:\skuksenk\_quadro\arm\prj\sonar\inc\main.h
 

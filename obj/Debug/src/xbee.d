@@ -11,4 +11,4 @@ obj\debug\src\xbee.o: src\XBEE.c inc/stm32f10x.h cmsis/core_cm3.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/queue.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/task.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/list.h inc/XBEE.h \
- inc/stm32f10x.h
+ inc/stm32f10x.h inc/gpiodef.h

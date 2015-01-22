@@ -13,6 +13,7 @@ xSemaphoreHandle XB_send_Semaphore;
 uint8_t xb_tx_buffer [110];
 
 uint16_t dropped_frames = 0;
+uint32_t sent_frames = 0;
 
 uint8_t ReceivingState = 0;
 uint8_t ByteReceived = 0;
@@ -326,7 +327,7 @@ void XB_RxPackParser( void *pvParameters )
 				case 0x81: //RX packet 16-bit address
 					//GPIO_SetBits( GPIOB, GPIO_Pin_14 );
 					current_msg.lenght = current_frame.lenght - 6;
-					current_msg.msg = pvPortMalloc (120);
+					current_msg.msg = pvPortMalloc (current_msg.lenght);
 					current_msg.type = current_frame.frame_array[0];
 					current_msg.address = current_frame.frame_array[1] << 8;
 					current_msg.address |= current_frame.frame_array[2];
@@ -347,6 +348,7 @@ void XB_RxPackParser( void *pvParameters )
 					//GPIO_SetBits( GPIOB, GPIO_Pin_11 ); //debug bit
 					if ((tx_frame_id == current_frame.frame_array[data_pointer++]) && (current_frame.frame_array[data_pointer] == 0))
 					{
+                        sent_frames++;
 						xSemaphoreGive( XB_send_Semaphore);
 					}
 					//GPIO_ResetBits( GPIOB, GPIO_Pin_11 ); //debug bit
@@ -431,6 +433,8 @@ while(1)
 
 				if ( xSemaphoreTake( XB_send_Semaphore,30 / portTICK_RATE_MS) != pdTRUE )
 				{
+                    //GPIOA->BSRR = GPIO_Pin_9; //-> HIGHT debug
+
 					//ѕодтверждение об отправке пакета не получено
 					if ((cur_tx_message.retries--) > 0)
 					{
@@ -439,9 +443,11 @@ while(1)
 
 						if (xQueueSendToFront(xb_tx_msg_queue, &cur_tx_message, 0) != pdPASS)
 						{
+						    //GPIOA->BSRR = GPIO_Pin_10; //-> HIGHT debug
 							//≈сли места в очереди уже нет, убиваем сообщение
 							vPortFree (cur_tx_message.msg);
 							dropped_frames++;
+							//GPIOA->BRR = GPIO_Pin_10; // -> LOW debug
 						}
 					}
 					else
@@ -449,7 +455,9 @@ while(1)
 						//≈сли попыток больше нет, убиваем сообщение
 						vPortFree (cur_tx_message.msg);
 						dropped_frames++;
+
 					}
+					//GPIOA->BRR = GPIO_Pin_9; // -> LOW debug
 				}
 				else
 				{
@@ -468,6 +476,7 @@ while(1)
 			default:
 				break;
 		}
+
 	//}
 	//vPortFree(cur_tx_message.msg);
 	//cur_tx_message.msg = NULL;
@@ -522,8 +531,8 @@ void XB_send_data (char *ar, int len, uint16_t addr, uint8_t retries)
 	xb_message msg;
 	portBASE_TYPE q_res; //переменна€ дл€ хранени€ результата постановки в очередь
 	//a = uxQueueMessagesWaiting(xb_tx_msg_queue);
-	//msg.msg = pvPortMalloc (len);
-	msg.msg = pvPortMalloc (120);
+	msg.msg = pvPortMalloc (len+10);
+	//msg.msg = pvPortMalloc (120);
     if (msg.msg != NULL)
 	{
 		//–азмещаем данные сразу со сдвигом, чтобы потом записать служебную информацию в начало массива

@@ -1,0 +1,919 @@
+Archive member included because of file (symbol)
+
+c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o)
+                              c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+                              c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o) (_global_impure_ptr)
+c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-init.o)
+                              c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memcpy-stub.o)
+                              obj\release\src\xbee.o (memcpy)
+c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memset.o)
+                              c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-strlen.o)
+                              obj\release\src\main.o (strlen)
+c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                              c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+Buf_Tx              0x2               obj\release\src\main.o
+I2C2_rx_msg_queue   0x4               obj\release\src\i2c.o
+cur_tx_message      0xc               obj\release\src\xbee.o
+strResult1          0x1b              obj\release\src\main.o
+XBMutex             0x4               obj\release\src\main.o
+I2C1_Mutex          0x4               obj\release\src\i2c.o
+tx_frame            0x8               obj\release\src\xbee.o
+xb_rx_msg_queue     0x4               obj\release\src\xbee.o
+I2C2_DataFrame      0x10              obj\release\src\i2c.o
+I2C2_Mutex          0x4               obj\release\src\i2c.o
+I2C1_rx_msg_queue   0x4               obj\release\src\i2c.o
+rx_frame            0x8               obj\release\src\xbee.o
+xb_tx_msg_queue     0x4               obj\release\src\xbee.o
+xb_tx_buffer        0x6e              obj\release\src\xbee.o
+XB_send_Semaphore   0x4               obj\release\src\xbee.o
+xb_received_frames  0x4               obj\release\src\xbee.o
+SonarMutex          0x4               obj\release\src\main.o
+I2C1_DataFrame      0x10              obj\release\src\i2c.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+ .data          0x00000000        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 obj\release\src\i2c.o
+ .data          0x00000000        0x0 obj\release\src\i2c.o
+ .bss           0x00000000        0x0 obj\release\src\i2c.o
+ .text          0x00000000        0x0 obj\release\src\xbee.o
+ .data          0x00000000        0x0 obj\release\src\xbee.o
+ .bss           0x00000000        0x0 obj\release\src\xbee.o
+ .bss.Received_RSSI
+                0x00000000        0x1 obj\release\src\xbee.o
+ .text          0x00000000        0x0 obj\release\src\main.o
+ .data          0x00000000        0x0 obj\release\src\main.o
+ .bss           0x00000000        0x0 obj\release\src\main.o
+ .text.reverse  0x00000000       0x2c obj\release\src\main.o
+ .text.itoa     0x00000000       0x5c obj\release\src\main.o
+ .text.xbTest   0x00000000       0xc4 obj\release\src\main.o
+ .data          0x00000000        0x0 obj\release\src\startup_stm32f10x_md.o
+ .bss           0x00000000        0x0 obj\release\src\startup_stm32f10x_md.o
+ .text          0x00000000        0x0 obj\release\src\stm32f10x_it.o
+ .data          0x00000000        0x0 obj\release\src\stm32f10x_it.o
+ .bss           0x00000000        0x0 obj\release\src\stm32f10x_it.o
+ .text          0x00000000        0x0 obj\release\src\system_stm32f10x.o
+ .data          0x00000000        0x0 obj\release\src\system_stm32f10x.o
+ .bss           0x00000000        0x0 obj\release\src\system_stm32f10x.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xe0 obj\release\src\system_stm32f10x.o
+ .data.AHBPrescTable
+                0x00000000       0x10 obj\release\src\system_stm32f10x.o
+ .data.SystemCoreClock
+                0x00000000        0x4 obj\release\src\system_stm32f10x.o
+ .text          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .data          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .bss           0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .text          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .data          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .bss           0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .text.vPortEndScheduler
+                0x00000000        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .text          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .data          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .bss           0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .text.xPortGetFreeHeapSize
+                0x00000000        0xc obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .text          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .data          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .bss           0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0x70 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x30 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x18 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.vQueueDelete
+                0x00000000       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000        0xc obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x10 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .data          0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss           0x00000000        0x0 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x00000000       0x34 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x20 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.vTaskPrioritySet
+                0x00000000       0xd4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.vTaskResume
+                0x00000000       0x7c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.xTaskResumeFromISR
+                0x00000000       0x98 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x1c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.xTaskGetTickCount
+                0x00000000       0x18 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x18 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0xc obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.vTaskDelayUntil
+                0x00000000       0x60 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.vTaskSuspend
+                0x00000000       0xa4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x54 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0x6c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x1c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-strlen.o)
+ .text.strlen   0x00000000       0x10 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-strlen.o)
+ .debug_frame   0x00000000       0x20 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .jcr           0x00000000        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .text          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+ .data          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+ .bss           0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x08000000         0x00020000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x00000000                __HEAP_SIZE = 0x0
+                0x00000100                __STACK_SIZE = 0x100
+
+.text           0x08000000     0x2b18
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xec obj\release\src\startup_stm32f10x_md.o
+                0x08000000                __isr_vector
+ *(.text*)
+ .text          0x080000ec       0x54 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .text          0x08000140       0x74 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x08000140                _start
+                0x08000140                _mainCRTStartup
+ .text.I2Cx_EV_IRQHandler
+                0x080001b4      0x1d8 obj\release\src\i2c.o
+                0x080001b4                I2Cx_EV_IRQHandler
+ .text.I2C1_EV_IRQHandler
+                0x0800038c       0x2c obj\release\src\i2c.o
+                0x0800038c                I2C1_EV_IRQHandler
+ .text.I2C2_EV_IRQHandler
+                0x080003b8       0x2c obj\release\src\i2c.o
+                0x080003b8                I2C2_EV_IRQHandler
+ .text.I2C_init
+                0x080003e4      0x180 obj\release\src\i2c.o
+                0x080003e4                I2C_init
+ .text.I2C_Write
+                0x08000564       0x4c obj\release\src\i2c.o
+                0x08000564                I2C_Write
+ .text.I2C_Read
+                0x080005b0       0x60 obj\release\src\i2c.o
+                0x080005b0                I2C_Read
+ .text.CalcCheckSumm
+                0x08000610       0x34 obj\release\src\xbee.o
+                0x08000610                CalcCheckSumm
+ .text.IsCheckSummCorrect
+                0x08000644       0x30 obj\release\src\xbee.o
+                0x08000644                IsCheckSummCorrect
+ .text.XB_RxPackParser
+                0x08000674      0x100 obj\release\src\xbee.o
+                0x08000674                XB_RxPackParser
+ .text.XB_StartDMA_RX
+                0x08000774       0x34 obj\release\src\xbee.o
+                0x08000774                XB_StartDMA_RX
+ .text.XB_StartDMA_TX
+                0x080007a8       0x34 obj\release\src\xbee.o
+                0x080007a8                XB_StartDMA_TX
+ .text.XB_Sender
+                0x080007dc      0x148 obj\release\src\xbee.o
+                0x080007dc                XB_Sender
+ .text.XB_RCC_Configuration
+                0x08000924       0x1c obj\release\src\xbee.o
+                0x08000924                XB_RCC_Configuration
+ .text.XB_GPIO_Configuration
+                0x08000940       0x3c obj\release\src\xbee.o
+                0x08000940                XB_GPIO_Configuration
+ .text.DMA1_Channel7_IRQHandler
+                0x0800097c       0x80 obj\release\src\xbee.o
+                0x0800097c                DMA1_Channel7_IRQHandler
+ .text.DMA1_Channel6_IRQHandler
+                0x080009fc       0xf4 obj\release\src\xbee.o
+                0x080009fc                DMA1_Channel6_IRQHandler
+ .text.USART2_IRQHandler
+                0x08000af0       0xf8 obj\release\src\xbee.o
+                0x08000af0                USART2_IRQHandler
+ .text.XB_USART_TX_DMA_Init
+                0x08000be8       0xac obj\release\src\xbee.o
+                0x08000be8                XB_USART_TX_DMA_Init
+ .text.XB_USART_RX_DMA_Init
+                0x08000c94       0x9c obj\release\src\xbee.o
+                0x08000c94                XB_USART_RX_DMA_Init
+ .text.XB_init  0x08000d30      0x144 obj\release\src\xbee.o
+                0x08000d30                XB_init
+ .text.XB_send_data
+                0x08000e74       0x80 obj\release\src\xbee.o
+                0x08000e74                XB_send_data
+ .text.Blink2   0x08000ef4       0x4c obj\release\src\main.o
+                0x08000ef4                Blink2
+ .text.Sonar    0x08000f40      0x190 obj\release\src\main.o
+                0x08000f40                Sonar
+ .text.CommandParcer
+                0x080010d0       0x54 obj\release\src\main.o
+                0x080010d0                CommandParcer
+ .text.mag_init
+                0x08001124       0xc0 obj\release\src\main.o
+                0x08001124                mag_init
+ .text.accel_init
+                0x080011e4       0x74 obj\release\src\main.o
+                0x080011e4                accel_init
+ .text.gyro_init
+                0x08001258       0xcc obj\release\src\main.o
+                0x08001258                gyro_init
+ .text.SensorsRead
+                0x08001324      0x1ac obj\release\src\main.o
+                0x08001324                SensorsRead
+ .text.ServoInit
+                0x080014d0       0x98 obj\release\src\main.o
+                0x080014d0                ServoInit
+ .text.main     0x08001568      0x16c obj\release\src\main.o
+                0x08001568                main
+ .text          0x080016d4       0xb8 obj\release\src\startup_stm32f10x_md.o
+                0x080016d4                Reset_Handler
+                0x0800172c                Default_Handler
+                0x0800172e                WWDG_IRQHandler
+                0x08001730                PVD_IRQHandler
+                0x08001732                TAMPER_IRQHandler
+                0x08001734                RTC_IRQHandler
+                0x08001736                FLASH_IRQHandler
+                0x08001738                RCC_IRQHandler
+                0x0800173a                EXTI0_IRQHandler
+                0x0800173c                EXTI1_IRQHandler
+                0x0800173e                EXTI2_IRQHandler
+                0x08001740                EXTI3_IRQHandler
+                0x08001742                EXTI4_IRQHandler
+                0x08001744                DMA1_Channel1_IRQHandler
+                0x08001746                DMA1_Channel2_IRQHandler
+                0x08001748                DMA1_Channel3_IRQHandler
+                0x0800174a                DMA1_Channel4_IRQHandler
+                0x0800174c                DMA1_Channel5_IRQHandler
+                0x08001752                ADC1_2_IRQHandler
+                0x08001754                USB_HP_CAN1_TX_IRQHandler
+                0x08001756                USB_LP_CAN1_RX0_IRQHandler
+                0x08001758                CAN1_RX1_IRQHandler
+                0x0800175a                CAN1_SCE_IRQHandler
+                0x0800175c                EXTI9_5_IRQHandler
+                0x0800175e                TIM1_BRK_IRQHandler
+                0x08001760                TIM1_UP_IRQHandler
+                0x08001762                TIM1_TRG_COM_IRQHandler
+                0x08001764                TIM1_CC_IRQHandler
+                0x08001766                TIM2_IRQHandler
+                0x08001768                TIM3_IRQHandler
+                0x0800176a                TIM4_IRQHandler
+                0x0800176e                I2C1_ER_IRQHandler
+                0x08001772                I2C2_ER_IRQHandler
+                0x08001774                SPI1_IRQHandler
+                0x08001776                SPI2_IRQHandler
+                0x08001778                USART1_IRQHandler
+                0x0800177c                USART3_IRQHandler
+                0x0800177e                EXTI15_10_IRQHandler
+                0x08001780                RTCAlarm_IRQHandler
+                0x08001782                USBWakeUp_IRQHandler
+ .text.prvGetRegistersFromStack
+                0x0800178c       0x24 obj\release\src\stm32f10x_it.o
+                0x0800178c                prvGetRegistersFromStack
+ .text.NMI_Handler
+                0x080017b0        0x4 obj\release\src\stm32f10x_it.o
+                0x080017b0                NMI_Handler
+ .text.HardFault_Handler
+                0x080017b4       0x18 obj\release\src\stm32f10x_it.o
+                0x080017b4                HardFault_Handler
+ .text.MemManage_Handler
+                0x080017cc        0x4 obj\release\src\stm32f10x_it.o
+                0x080017cc                MemManage_Handler
+ .text.BusFault_Handler
+                0x080017d0        0x4 obj\release\src\stm32f10x_it.o
+                0x080017d0                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080017d4        0x4 obj\release\src\stm32f10x_it.o
+                0x080017d4                UsageFault_Handler
+ .text.DebugMon_Handler
+                0x080017d8        0x4 obj\release\src\stm32f10x_it.o
+                0x080017d8                DebugMon_Handler
+ .text.SystemInit
+                0x080017dc      0x130 obj\release\src\system_stm32f10x.o
+                0x080017dc                SystemInit
+ .text.vListInitialise
+                0x0800190c       0x18 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+                0x0800190c                vListInitialise
+ .text.vListInitialiseItem
+                0x08001924        0x8 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+                0x08001924                vListInitialiseItem
+ .text.vListInsertEnd
+                0x0800192c       0x1c obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+                0x0800192c                vListInsertEnd
+ .text.vListInsert
+                0x08001948       0x38 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+                0x08001948                vListInsert
+ .text.uxListRemove
+                0x08001980       0x28 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+                0x08001980                uxListRemove
+ .text.prvPortStartFirstTask
+                0x080019a8       0x1c obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .text.pxPortInitialiseStack
+                0x080019c4       0x24 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x080019c4                pxPortInitialiseStack
+ .text.SVC_Handler
+                0x080019e8       0x24 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x080019e8                SVC_Handler
+ .text.vPortYield
+                0x08001a0c       0x18 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001a0c                vPortYield
+ .text.ulPortSetInterruptMask
+                0x08001a24       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001a24                ulPortSetInterruptMask
+ .text.vPortEnterCritical
+                0x08001a38       0x20 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001a38                vPortEnterCritical
+ .text.prvTaskExitError
+                0x08001a58        0x8 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .text.vPortClearInterruptMask
+                0x08001a60        0x8 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001a60                vPortClearInterruptMask
+ .text.vPortExitCritical
+                0x08001a68       0x20 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001a68                vPortExitCritical
+ .text.PendSV_Handler
+                0x08001a88       0x44 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001a88                PendSV_Handler
+ .text.SysTick_Handler
+                0x08001acc       0x24 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001acc                SysTick_Handler
+ .text.vPortSetupTimerInterrupt
+                0x08001af0       0x24 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001af0                vPortSetupTimerInterrupt
+ .text.xPortStartScheduler
+                0x08001b14       0x34 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                0x08001b14                xPortStartScheduler
+ .text.pvPortMalloc
+                0x08001b48       0xf0 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+                0x08001b48                pvPortMalloc
+ .text.vPortFree
+                0x08001c38       0x44 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+                0x08001c38                vPortFree
+ .text.prvCopyDataFromQueue
+                0x08001c7c       0x24 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.prvUnlockQueue
+                0x08001ca0       0x84 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.prvCopyDataToQueue
+                0x08001d24       0x74 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .text.xQueueGenericReset
+                0x08001d98       0x64 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+                0x08001d98                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x08001dfc       0x50 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+                0x08001dfc                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x08001e4c       0xec obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+                0x08001e4c                xQueueGenericSend
+ .text.xQueueCreateMutex
+                0x08001f38       0x4c obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+                0x08001f38                xQueueCreateMutex
+ .text.xQueueGenericSendFromISR
+                0x08001f84       0x7c obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+                0x08001f84                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x08002000      0x120 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+                0x08002000                xQueueGenericReceive
+ .text.prvResetNextTaskUnblockTime
+                0x08002120       0x3c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x0800215c       0x74 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.prvIdleTask
+                0x080021d0       0x18 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .text.xTaskGenericCreate
+                0x080021e8      0x210 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080021e8                xTaskGenericCreate
+ .text.vTaskStartScheduler
+                0x080023f8       0x54 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080023f8                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x0800244c       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x0800244c                vTaskSuspendAll
+ .text.xTaskIncrementTick
+                0x08002460      0x150 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x08002460                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x080025b0      0x10c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080025b0                xTaskResumeAll
+ .text.vTaskDelay
+                0x080026bc       0x3c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080026bc                vTaskDelay
+ .text.vTaskSwitchContext
+                0x080026f8       0xa8 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080026f8                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x080027a0       0x4c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080027a0                vTaskPlaceOnEventList
+ .text.xTaskRemoveFromEventList
+                0x080027ec       0x8c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080027ec                xTaskRemoveFromEventList
+ .text.vTaskSetTimeOutState
+                0x08002878       0x1c obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x08002878                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x08002894       0x60 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x08002894                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x080028f4       0x10 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080028f4                vTaskMissedYield
+ .text.xTaskGetCurrentTaskHandle
+                0x08002904        0xc obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x08002904                xTaskGetCurrentTaskHandle
+ .text.vTaskPriorityInherit
+                0x08002910       0xa0 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x08002910                vTaskPriorityInherit
+ .text.vTaskPriorityDisinherit
+                0x080029b0       0x58 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x080029b0                vTaskPriorityDisinherit
+ .text.exit     0x08002a08       0x28 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o)
+                0x08002a08                exit
+ .text.__libc_init_array
+                0x08002a30       0x4c c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-init.o)
+                0x08002a30                __libc_init_array
+ .text.memcpy   0x08002a7c       0x12 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memcpy-stub.o)
+                0x08002a7c                memcpy
+ .text.memset   0x08002a8e       0x10 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memset.o)
+                0x08002a8e                memset
+ *fill*         0x08002a9e        0x2 
+ .text._exit    0x08002aa0        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                0x08002aa0                _exit
+ *(.init)
+ .init          0x08002aa4        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+                0x08002aa4                _init
+ .init          0x08002aa8        0x8 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+ *(.fini)
+ .fini          0x08002ab0        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+                0x08002ab0                _fini
+ .fini          0x08002ab4        0x8 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.4
+                0x08002abc       0x1a obj\release\src\xbee.o
+                                 0x1c (size before relaxing)
+ *fill*         0x08002ad6        0x2 
+ .rodata.str1.4
+                0x08002ad8       0x2a obj\release\src\main.o
+                                 0x2c (size before relaxing)
+ *fill*         0x08002b02        0x2 
+ .rodata.str1.4
+                0x08002b04        0x8 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .rodata.str1.1
+                0x08002b0c        0x2 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+ *fill*         0x08002b0e        0x2 
+ .rodata._global_impure_ptr
+                0x08002b10        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+                0x08002b10                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x08002b14        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .eh_frame      0x08002b14        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+
+.glue_7         0x08002b18        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08002b18        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08002b18        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08002b18        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08002b18        0x0
+ .iplt          0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08002b18                __exidx_start = .
+
+.ARM.exidx      0x08002b18        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x08002b18        0x8 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x08002b20                __exidx_end = .
+                0x08002b20                __etext = .
+
+.rel.dyn        0x08002b20        0x0
+ .rel.iplt      0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+
+.data           0x20000000       0x78 load address 0x08002b20
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.tx_frame_id
+                0x20000000        0x1 obj\release\src\xbee.o
+                0x20000000                tx_frame_id
+ .data.sensors_interval
+                0x20000001        0x1 obj\release\src\main.o
+                0x20000001                sensors_interval
+ .data.ServoDir
+                0x20000002        0x1 obj\release\src\main.o
+                0x20000002                ServoDir
+ *fill*         0x20000003        0x1 
+ .data.uxCriticalNesting
+                0x20000004        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .data.xFreeBytesRemaining
+                0x20000008        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .data.xNextTaskUnblockTime
+                0x2000000c        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .data.impure_data
+                0x20000010       0x60 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+                0x20000070                . = ALIGN (0x4)
+                0x20000070                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000070                PROVIDE (__preinit_array_end, .)
+                0x20000070                . = ALIGN (0x4)
+                0x20000070                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x20000070        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+                0x20000074                PROVIDE (__init_array_end, .)
+                0x20000074                . = ALIGN (0x4)
+                0x20000074                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20000074        0x4 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+                0x20000078                PROVIDE (__fini_array_end, .)
+                0x20000078                . = ALIGN (0x4)
+                0x20000078                __data_end__ = .
+
+.jcr            0x20000078        0x0 load address 0x08002b98
+ .jcr           0x20000078        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+
+.igot.plt       0x20000078        0x0 load address 0x08002b98
+ .igot.plt      0x00000000        0x0 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+
+.bss            0x20000078     0x3e1c load address 0x08002b98
+                0x20000078                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20000078       0x1c c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .bss.xHigherPriorityTaskWoken
+                0x20000094        0x4 obj\release\src\i2c.o
+ .bss.ByteReceived
+                0x20000098        0x1 obj\release\src\xbee.o
+                0x20000098                ByteReceived
+ .bss.ReceivingState
+                0x20000099        0x1 obj\release\src\xbee.o
+                0x20000099                ReceivingState
+ .bss.dropped_frames
+                0x2000009a        0x2 obj\release\src\xbee.o
+                0x2000009a                dropped_frames
+ .bss.xHigherPriorityTaskWoken.5779
+                0x2000009c        0x4 obj\release\src\xbee.o
+ .bss.sent_frames
+                0x200000a0        0x4 obj\release\src\xbee.o
+                0x200000a0                sent_frames
+ .bss.ServoValue
+                0x200000a4        0x2 obj\release\src\main.o
+                0x200000a4                ServoValue
+ .bss.Range     0x200000a6        0x2 obj\release\src\main.o
+                0x200000a6                Range
+ .bss.xStart    0x200000a8        0x8 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .bss.ucHeap    0x200000b0     0x3c00 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .bss.xHeapHasBeenInitialised.4563
+                0x20003cb0        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .bss.xEnd      0x20003cb4        0x8 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .bss.pxDelayedTaskList
+                0x20003cbc        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.xSchedulerRunning
+                0x20003cc0        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.xDelayedTaskList1
+                0x20003cc4       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.xDelayedTaskList2
+                0x20003cd8       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.uxPendedTicks
+                0x20003cec        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.pxReadyTasksLists
+                0x20003cf0       0x64 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.uxSchedulerSuspended
+                0x20003d54        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.pxCurrentTCB
+                0x20003d58        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                0x20003d58                pxCurrentTCB
+ .bss.xPendingReadyList
+                0x20003d5c       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.xNumOfOverflows
+                0x20003d70        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.xTickCount
+                0x20003d74        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x20003d78        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.uxTaskNumber
+                0x20003d7c        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x20003d80        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.xSuspendedTaskList
+                0x20003d84       0x14 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.uxTopReadyPriority
+                0x20003d98        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .bss.xYieldPending
+                0x20003d9c        0x4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ *(COMMON)
+ COMMON         0x20003da0       0x30 obj\release\src\i2c.o
+                0x20003da0                I2C2_rx_msg_queue
+                0x20003da4                I2C1_Mutex
+                0x20003da8                I2C2_DataFrame
+                0x20003db8                I2C2_Mutex
+                0x20003dbc                I2C1_rx_msg_queue
+                0x20003dc0                I2C1_DataFrame
+ COMMON         0x20003dd0       0x9c obj\release\src\xbee.o
+                0x20003dd0                cur_tx_message
+                0x20003ddc                tx_frame
+                0x20003de4                xb_rx_msg_queue
+                0x20003de8                rx_frame
+                0x20003df0                xb_tx_msg_queue
+                0x20003df4                xb_tx_buffer
+                0x20003e64                XB_send_Semaphore
+                0x20003e68                xb_received_frames
+ COMMON         0x20003e6c       0x28 obj\release\src\main.o
+                0x20003e6c                Buf_Tx
+                0x20003e70                strResult1
+                0x20003e8c                XBMutex
+                0x20003e90                SonarMutex
+                0x20003e94                __bss_end__ = .
+
+.heap           0x20003e98        0x0
+                0x20003e98                __end__ = .
+                0x20003e98                end = __end__
+ *(.heap*)
+ .heap          0x20003e98        0x0 obj\release\src\startup_stm32f10x_md.o
+                0x20003e98                __HeapLimit = .
+
+.stack_dummy    0x20003e98      0x100
+ *(.stack)
+ .stack         0x20003e98      0x100 obj\release\src\startup_stm32f10x_md.o
+                0x20005000                __StackTop = (ORIGIN (RAM) + 0x5000)
+                0x20004f00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20005000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+LOAD obj\release\src\i2c.o
+LOAD obj\release\src\xbee.o
+LOAD obj\release\src\main.o
+LOAD obj\release\src\startup_stm32f10x_md.o
+LOAD obj\release\src\stm32f10x_it.o
+LOAD obj\release\src\system_stm32f10x.o
+LOAD obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+LOAD obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+LOAD obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+LOAD obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+LOAD obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+START GROUP
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libg_n.a
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+END GROUP
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+LOAD c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+OUTPUT(bin\Release\Sonar.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x1d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x33 obj\release\src\i2c.o
+ .ARM.attributes
+                0x00000098       0x33 obj\release\src\xbee.o
+ .ARM.attributes
+                0x000000cb       0x33 obj\release\src\main.o
+ .ARM.attributes
+                0x000000fe       0x1b obj\release\src\startup_stm32f10x_md.o
+ .ARM.attributes
+                0x00000119       0x33 obj\release\src\stm32f10x_it.o
+ .ARM.attributes
+                0x0000014c       0x33 obj\release\src\system_stm32f10x.o
+ .ARM.attributes
+                0x0000017f       0x33 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .ARM.attributes
+                0x000001b2       0x33 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .ARM.attributes
+                0x000001e5       0x33 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .ARM.attributes
+                0x00000218       0x33 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .ARM.attributes
+                0x0000024b       0x33 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .ARM.attributes
+                0x0000027e       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000002ab       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000002d8       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000305       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000332       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000035f       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000038c       0x2d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x000003b9       0x1d c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m/crtn.o
+
+.comment        0x00000000       0x38
+ .comment       0x00000000       0x38 obj\release\src\i2c.o
+                                 0x39 (size before relaxing)
+ .comment       0x00000000       0x39 obj\release\src\xbee.o
+ .comment       0x00000000       0x39 obj\release\src\main.o
+ .comment       0x00000000       0x39 obj\release\src\stm32f10x_it.o
+ .comment       0x00000000       0x39 obj\release\src\system_stm32f10x.o
+ .comment       0x00000000       0x39 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .comment       0x00000000       0x39 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .comment       0x00000000       0x39 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .comment       0x00000000       0x39 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .comment       0x00000000       0x39 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+
+.debug_info     0x00000000     0x6be8
+ .debug_info    0x00000000      0xb4d obj\release\src\i2c.o
+ .debug_info    0x00000b4d     0x1349 obj\release\src\xbee.o
+ .debug_info    0x00001e96     0x15dd obj\release\src\main.o
+ .debug_info    0x00003473       0x63 obj\release\src\startup_stm32f10x_md.o
+ .debug_info    0x000034d6      0x1e0 obj\release\src\stm32f10x_it.o
+ .debug_info    0x000036b6      0x50f obj\release\src\system_stm32f10x.o
+ .debug_info    0x00003bc5      0x2c5 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .debug_info    0x00003e8a      0x2fe obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .debug_info    0x00004188      0x363 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .debug_info    0x000044eb     0x10dd obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .debug_info    0x000055c8     0x1620 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+
+.debug_abbrev   0x00000000     0x14c1
+ .debug_abbrev  0x00000000      0x23c obj\release\src\i2c.o
+ .debug_abbrev  0x0000023c      0x340 obj\release\src\xbee.o
+ .debug_abbrev  0x0000057c      0x2e0 obj\release\src\main.o
+ .debug_abbrev  0x0000085c       0x14 obj\release\src\startup_stm32f10x_md.o
+ .debug_abbrev  0x00000870       0xaa obj\release\src\stm32f10x_it.o
+ .debug_abbrev  0x0000091a      0x172 obj\release\src\system_stm32f10x.o
+ .debug_abbrev  0x00000a8c       0xf8 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .debug_abbrev  0x00000b84      0x1ae obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .debug_abbrev  0x00000d32      0x1bd obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .debug_abbrev  0x00000eef      0x29b obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .debug_abbrev  0x0000118a      0x337 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+
+.debug_loc      0x00000000     0x2b26
+ .debug_loc     0x00000000      0x38f obj\release\src\i2c.o
+ .debug_loc     0x0000038f      0x46c obj\release\src\xbee.o
+ .debug_loc     0x000007fb      0x37b obj\release\src\main.o
+ .debug_loc     0x00000b76      0x10c obj\release\src\stm32f10x_it.o
+ .debug_loc     0x00000c82      0x15e obj\release\src\system_stm32f10x.o
+ .debug_loc     0x00000de0       0x60 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .debug_loc     0x00000e40      0x120 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .debug_loc     0x00000f60      0x27a obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .debug_loc     0x000011da      0xbe6 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .debug_loc     0x00001dc0      0xd66 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+
+.debug_aranges  0x00000000      0x4a0
+ .debug_aranges
+                0x00000000       0x48 obj\release\src\i2c.o
+ .debug_aranges
+                0x00000048       0x90 obj\release\src\xbee.o
+ .debug_aranges
+                0x000000d8       0x78 obj\release\src\main.o
+ .debug_aranges
+                0x00000150       0x20 obj\release\src\startup_stm32f10x_md.o
+ .debug_aranges
+                0x00000170       0x50 obj\release\src\stm32f10x_it.o
+ .debug_aranges
+                0x000001c0       0x28 obj\release\src\system_stm32f10x.o
+ .debug_aranges
+                0x000001e8       0x40 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .debug_aranges
+                0x00000228       0x88 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .debug_aranges
+                0x000002b0       0x38 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .debug_aranges
+                0x000002e8       0xa0 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .debug_aranges
+                0x00000388      0x118 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+
+.debug_ranges   0x00000000      0x488
+ .debug_ranges  0x00000000       0x38 obj\release\src\i2c.o
+ .debug_ranges  0x00000038       0x98 obj\release\src\xbee.o
+ .debug_ranges  0x000000d0       0x68 obj\release\src\main.o
+ .debug_ranges  0x00000138       0x40 obj\release\src\stm32f10x_it.o
+ .debug_ranges  0x00000178       0x18 obj\release\src\system_stm32f10x.o
+ .debug_ranges  0x00000190       0x30 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .debug_ranges  0x000001c0       0x78 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .debug_ranges  0x00000238       0x28 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .debug_ranges  0x00000260       0x90 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .debug_ranges  0x000002f0      0x198 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+
+.debug_line     0x00000000     0x2570
+ .debug_line    0x00000000      0x33b obj\release\src\i2c.o
+ .debug_line    0x0000033b      0x4a1 obj\release\src\xbee.o
+ .debug_line    0x000007dc      0x55c obj\release\src\main.o
+ .debug_line    0x00000d38       0xa8 obj\release\src\startup_stm32f10x_md.o
+ .debug_line    0x00000de0      0x1cc obj\release\src\stm32f10x_it.o
+ .debug_line    0x00000fac      0x1c9 obj\release\src\system_stm32f10x.o
+ .debug_line    0x00001175      0x258 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .debug_line    0x000013cd      0x2d2 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .debug_line    0x0000169f      0x2f7 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .debug_line    0x00001996      0x4e6 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .debug_line    0x00001e7c      0x6f4 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+
+.debug_str      0x00000000     0x1b19
+ .debug_str     0x00000000      0x668 obj\release\src\i2c.o
+                                0x6f9 (size before relaxing)
+ .debug_str     0x00000668      0x3d1 obj\release\src\xbee.o
+                                0x963 (size before relaxing)
+ .debug_str     0x00000a39      0x233 obj\release\src\main.o
+                                0x608 (size before relaxing)
+ .debug_str     0x00000c6c       0xa6 obj\release\src\stm32f10x_it.o
+                                0x199 (size before relaxing)
+ .debug_str     0x00000d12       0xc7 obj\release\src\system_stm32f10x.o
+                                0x27d (size before relaxing)
+ .debug_str     0x00000dd9      0x14a obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+                                0x240 (size before relaxing)
+ .debug_str     0x00000f23      0x190 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+                                0x2ae (size before relaxing)
+ .debug_str     0x000010b3      0x167 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+                                0x2aa (size before relaxing)
+ .debug_str     0x0000121a      0x3c9 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+                                0x6cf (size before relaxing)
+ .debug_str     0x000015e3      0x536 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+                                0x9f0 (size before relaxing)
+
+.debug_frame    0x00000000      0xc18
+ .debug_frame   0x00000000       0xac obj\release\src\i2c.o
+ .debug_frame   0x000000ac      0x17c obj\release\src\xbee.o
+ .debug_frame   0x00000228      0x18c obj\release\src\main.o
+ .debug_frame   0x000003b4       0x84 obj\release\src\stm32f10x_it.o
+ .debug_frame   0x00000438       0x34 obj\release\src\system_stm32f10x.o
+ .debug_frame   0x0000046c       0x68 obj\release\~#\lib\freertosv8.0.1\freertos\source\list.o
+ .debug_frame   0x000004d4      0x118 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\gcc\arm_cm3\port.o
+ .debug_frame   0x000005ec       0x68 obj\release\~#\lib\freertosv8.0.1\freertos\source\portable\memmang\heap_2.o
+ .debug_frame   0x00000654      0x1e0 obj\release\~#\lib\freertosv8.0.1\freertos\source\queue.o
+ .debug_frame   0x00000834      0x328 obj\release\~#\lib\freertosv8.0.1\freertos\source\tasks.o
+ .debug_frame   0x00000b5c       0x28 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-exit.o)
+ .debug_frame   0x00000b84       0x2c c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-init.o)
+ .debug_frame   0x00000bb0       0x28 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000bd8       0x20 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc_n.a(lib_a-memset.o)
+ .debug_frame   0x00000bf8       0x20 c:/skuksenk/tools/emblocks/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)

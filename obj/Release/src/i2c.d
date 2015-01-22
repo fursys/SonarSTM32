@@ -1,14 +1,14 @@
-obj\debug\src\main.o: src\main.c inc/stm32f10x.h cmsis/core_cm3.h \
+obj\release\src\i2c.o: src\I2C.c inc/stm32f10x.h cmsis/core_cm3.h \
  cmsis/core_cmInstr.h cmsis/core_cmFunc.h inc/system_stm32f10x.h \
- inc/main.h ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/FreeRTOS.h \
+ inc/I2C.h inc/stm32f10x.h \
+ ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/FreeRTOS.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/projdefs.h \
  inc/FreeRTOSConfig.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/portable.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\portable\GCC\ARM_CM3/portmacro.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/mpu_wrappers.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/queue.h \
- ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/task.h \
- ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/list.h \
  ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/semphr.h \
- ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/queue.h inc/XBEE.h \
- inc/stm32f10x.h inc/gpiodef.h inc/I2C.h inc/gpiodef.h
+ ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/queue.h \
+ ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/task.h \
+ ..\lib\FreeRTOSv8.0.1\FreeRTOS\Source\include/list.h inc/gpiodef.h
